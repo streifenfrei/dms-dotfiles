@@ -1,0 +1,22 @@
+# dms-dotfiles — track exactly the files below, ignore everything else in ~/.config.
+# Used via core.excludesFile in ~/.dotfiles.git, so no .gitignore file is needed
+# in the worktree (a .gitignore in ~/.config would confuse rg/fd searches).
+/*
+!/.dotfiles-exclude
+!/README.md
+!/dms/
+/dms/*
+!/dms/settings.json
+!/dms/plugins.lock.json
+!/dms/themes/
+/dms/themes/*
+!/dms/themes/autumnLeafs/
+/dms/themes/autumnLeafs/*
+!/dms/themes/autumnLeafs/autumn_leafs.json
+!/hypr/
+/hypr/*
+!/hypr/hyprland.lua
+!/hypr/dms/
+/hypr/dms/*
+!/hypr/dms/binds-user.lua
+!/hypr/dms/user.lua

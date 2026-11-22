@@ -1,0 +1,9 @@
+{
+  "lockfileVersion": 1,
+  "plugins": {
+    "audioFx": {
+      "repo": "https://github.com/satoshoe-dev/dms-audiofx",
+      "commit": "34ec81b3551d2542eb631d496c8d19da6122a030"
+    }
+  }
+}
